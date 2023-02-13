@@ -2,8 +2,8 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /* a propriedade margin define a área da imagem nos quatro lados do elemento */
+    padding: 0; /* padding define uma distância entre conteúdo de um elemento e suas bordas */
 }
 
 body{
