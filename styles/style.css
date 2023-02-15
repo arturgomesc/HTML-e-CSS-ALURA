@@ -43,9 +43,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -101,8 +102,7 @@ body{
 
 .apresentacao__img {
     display: flex;
-    position: absolute;
-    width: 488px;
+    width: 50%;
     height: 550px;
     left: 1100px;
     top: 250px;
@@ -117,4 +117,24 @@ body{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 200;
+}
+
+@media (max-width: 1200px) { /* @media serve para mudar propriedades a partir da condição dada logo em seguida entre os parênteses */
+    
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
 }
