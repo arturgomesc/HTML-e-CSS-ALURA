@@ -92,7 +92,7 @@ body{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
 
@@ -110,13 +110,13 @@ body{
 }
 
 .rodape {
-    padding: 1.25rem;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
+    padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 @media (max-width: 1200px) { /* @media serve para mudar propriedades a partir da condição dada logo em seguida entre os parênteses */
